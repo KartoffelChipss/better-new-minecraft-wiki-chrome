@@ -1,0 +1,17 @@
+{
+    "appName": {
+        "message": "Better new Minecraft Wiki"
+    },
+    "appDesc": {
+        "message": "This extension prevents you from accessing 'minecraft.fandom.com' and redirects you to 'minecraft.wiki' instead"
+    },
+    "contextNewWiki": {
+        "message": "New Minecraft Wiki"
+    },
+    "contextOpenInNewWiki": {
+        "message": "Open in new Wiki"
+    },
+    "contextOpenInOldWiki": {
+        "message": "Open in old Wiki"
+    }
+}

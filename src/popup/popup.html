@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <style>
+            body {
+                min-width: 350px;
+            
+                border: none;
+                background-color: #2b2f39;
+                border-radius: 12px;
+
+                margin: 0;
+                padding: 15px;
+            }
+
+            .top {
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+
+            .top img {
+                margin-right: 7px;
+                height: 35px;
+                width: 35px;
+            }
+
+            h2 {
+                color: #fefefe;
+                font-size: 20px;
+                margin: 0;
+                margin-bottom: 3px;
+            }
+            
+            p {
+                color: #fefefe;
+                font-size: 15px;
+                margin: 0;
+                margin-bottom: 15px;
+            }
+
+            button {
+                background-color: #458ec7;
+                color: #fefefe;
+                font-weight: 600;
+                font-size: 15px;
+                padding: 7px 17px;
+                border-radius: 12px;
+                border: none;
+            }
+
+            button:hover {
+                cursor: pointer;
+            }
+        </style> 
+    </head>
+
+    <body>
+        <div class="top">
+            <img src="../img/wiki-48.png">
+            <h2 data-locale="appName">Better new Minecraft Wiki</h2>
+        </div>
+
+        <p data-locale="appDesc">Prevents you from accessing 'minecraft.fandom.com' and redirects you to 'minecraft.wiki' instead</p>
+
+        <button id="newwikibtn" data-locale="contextNewWiki">New Minecraft Wiki</button>
+
+        <script src="./popup.js"></script>
+    </body>
+</html>
