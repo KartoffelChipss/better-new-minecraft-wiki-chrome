@@ -1,0 +1,17 @@
+{
+    "appName": {
+        "message": "Better new Minecraft Wiki"
+    },
+    "appDesc": {
+        "message": "Diese Erweiterung verhindert, dass du 'minecraft.fandom.com' aufrufst und leitet dich statdessen zum neuen 'minecraft.wiki' weiter"
+    },
+    "contextNewWiki": {
+        "message": "Neues Minecraft Wiki"
+    },
+    "contextOpenInNewWiki": {
+        "message": "In neuem Wiki öffnen"
+    },
+    "contextOpenInOldWiki": {
+        "message": "In altem Wiki öffnen"
+    }
+}

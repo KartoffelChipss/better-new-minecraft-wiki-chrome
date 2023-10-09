@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "Better new Minecraft Wiki",
+    "version": "1.0.0",
+    "description": "Prevents you from accessing 'minecraft.fandom.com' and redirects you to 'minecraft.wiki' instead",
+    "default_locale": "en",
+    "icons": {
+        "16": "./img/wiki-16.png",
+        "19": "./img/wiki-19.png",
+        "38": "./img/wiki-38.png",
+        "48": "./img/wiki-48.png",
+        "128": "./img/wiki-128.png"
+    },
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    },
+    "permissions": [
+        "declarativeNetRequestWithHostAccess",
+        "contextMenus"
+    ],
+    "host_permissions": [
+        "*://minecraft.fandom.com/"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "condition": {
+            "urlFilter": "|https://minecraft.fandom.com/",
+            "resourceTypes": [
+                "main_frame"
+            ]
+        },
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "transform": {
+                    "host": "minecraft.wiki"
+                }
+            }
+        }
+    }
+]
