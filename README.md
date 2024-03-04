@@ -1,4 +1,4 @@
-# <img src="https://file.strassburger.org/mcwikilogo.png" height="40px"> Better New Minecraft Wiki for Chrome
+# <img src="https://file.strassburger.dev/mcwikilogo.png" height="40px"> Better New Minecraft Wiki for Chrome
 Enhance Your Minecraft Wiki Experience!
 
 Say goodbye to the old fandom and welcome the optimized new Minecraft.wiki! Boost your browsing speed, don't get bothered by hundreds of ads and help to improve search results for the new wiki by automatically redirecting to minecraft.wiki.
